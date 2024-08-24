@@ -26,8 +26,11 @@
               colors: {
                 clifford: '#da373d',
                 'btn-green':'#ABEF5F',
-                'btn-light-green':'#ABEF5F80 '
+                'btn-light-green':'#ABEF5F80 ',
+                'bg-image':"url ('assets/bg.jpg')"
               }
+
+              
             }
           }
         }
@@ -328,8 +331,11 @@
 
 
     <!-- form section -->
+     <!-- bg-[url('assets/bg.jpg')] bg-no-repeat -->
+     
 
-    <div class="text-center mt-10 mb-5">
+   <div class="bg-[url('assets/bg.jpg')] bg-no-repeat bg-cover w-auto">
+    <div class="text-center mt-10 mb-5 pt-10">
       <button class="btn bg-white mb-5 -mt-10 text-black rounded-full">
         <i class="fa-solid fa-arrow-right  rounded-full px-auto h-7 w-7 text-lg"></i>How We Work</button>
       <h1 class="manrope-font text-4xl font-bold mb-5">Let’s Discuss Next Project</h1>
@@ -340,33 +346,51 @@
      </div>
 
      <!-- form start  -->
-      <div class="w-full">
-        <div class=" grid grid-cols-12 gap-2 justify-items-center">
 
-        
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-       
-
-
-        
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-          
-
-
-
-
-
+    <div class="max-w-screen-xl mx-16 gap-4">
+      <div class="grid grid-cols-12 grid-rows-7 gap-5  ">
+        <div class="sm:col-span-12 lg:col-span-6 ">
+          <input class=" w-full block rounded-lg p-2"  type="text" id="fname" name="fname">
 
         </div>
+        <div class="sm:col-span-12 lg:col-span-6">
+          <input class=" w-full block rounded-lg  p-2"  type="text" id="fname" name="fname">
 
+        </div>
+        <div class="sm:col-span-12 lg:col-span-6">
+          <input class=" w-full block rounded-lg  p-2"  type="text" id="fname" name="fname">
 
+        </div> 
+        <div class="sm:col-span-12 lg:col-span-6">
+          <input class=" w-full block rounded-lg  p-2"  type="text" id="fname" name="fname">
 
+        </div>
+       <div class="sm:col-span-12 sm:row-span-3 " >
+        <textarea class=" w-full block rounded-lg  p-2 mb-5"  name="" id="" cols="30" rows="10"></textarea>
+       </div>
 
-
+       <div class="sm:col-span-12">
+        
+          <a class="btn bg-btn-green rounded-full  w-full mb-10">Book Consult <i class="fa-solid fa-arrow-up-long rotate-45 bg-black text-white rounded-full px-auto h-7 w-7 text-lg"></i></a>
+      
 
       </div>
+
+       
+     
+        
+       
+      </div>
+    </div>
+   </div>
+    
+
+
+
+
+
+
+    
 
 
   
