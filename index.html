@@ -150,7 +150,7 @@
               
              <div class=" lg:w-4/5 lg:text-start space-y-10 sm:w-full mb-10 mt-10 ">
              <div class="absolate  text-center lg:text-start">
-              <img src="assets/Vector.png" class= " hidden lg:block relative -left-10 -top-5 " alt="" srcset="">
+              <img src="assets/Vector.png" class= " hidden lg:block relative -left-10 -top-5  border-2 border-dashed border-black p-2 " alt="" srcset="">
               <button class="btn bg-white mb-5 -mt-10 text-black rounded-full">
                 <i class="fa-solid fa-arrow-right  rounded-full px-auto h-7 w-7 text-lg"></i>About Me</button>
               <h1 class="manrope-font font-bold text-4xl text-black">We design thoughtful, <br> liveable spaces</h1>
@@ -208,7 +208,11 @@
             </div>
           </div>
         </div>
-    
+
+
+        <!-- extra section -->
+
+       
 
 
 
@@ -353,28 +357,28 @@
     <div class="max-w-screen-xl mx-16">
       <div class="grid sm:grid-cols-12  lg:grid-cols-12 gap-4 ">
         <div class="sm:col-span-12 lg:col-span-6 ">
-          <input class="w-full block rounded-lg p-2"  type="text" id="fname" name="fname">
+          <input class="w-full block rounded-lg p-2"  type="text" id="fname" name="fname" placeholder="First Name*">
 
         </div>
         <div class="sm:col-span-12 lg:col-span-6">
-          <input class=" w-full block rounded-lg  p-2 "  type="text" id="fname" name="fname">
+          <input class=" w-full block rounded-lg  p-2 "  type="text" id="fname" name="fname" placeholder="Last Name*">
 
         </div>
         <div class="sm:col-span-12 lg:col-span-6">
-          <input class=" w-full block rounded-lg  p-2"  type="text" id="fname" name="fname">
+          <input class=" w-full block rounded-lg  p-2"  type="text" id="fname" name="fname" placeholder="Phone Number*">
 
         </div> 
         <div class="sm:col-span-12 lg:col-span-6">
-          <input class=" w-full block rounded-lg  p-2"  type="text" id="fname" name="fname">
+          <input class=" w-full block rounded-lg  p-2"  type="text" id="fname" name="fname" placeholder="Email*">
 
         </div>
        <div class="sm:col-span-12 sm:row-span-3 " >
-        <textarea class=" w-full block rounded-lg  p-2 mb-5"  name="" id="" cols="30" rows="10"></textarea>
+        <textarea class=" w-full block rounded-lg  p-2 mb-5"  name="" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
        </div>
 
        <div class="sm:col-span-12">
         
-          <a class="btn bg-btn-green rounded-full  w-full mb-10">Book Consult <i class="fa-solid fa-arrow-up-long rotate-45 bg-black text-white rounded-full px-auto h-7 w-7 text-lg"></i></a>
+          <a class="btn bg-btn-green rounded-full  w-full mb-10">Send Mail <i class="fa-solid fa-arrow-up-long rotate-45 bg-black text-white rounded-full px-auto h-7 w-7 text-lg"></i></a>
       
 
       </div>
@@ -386,6 +390,65 @@
       </div>
     </div>
    </div>
+
+
+   <!-- extra section -->
+   <div class="text-center mt-10 mb-5 ml-10 mr-10">
+    <h1 class="manrope-font text-4xl font-bold mb-5">FAQ</h1>
+    <div class="text-center mx-auto w-1/2 manrope-font text-lg">
+      <p>Common questions asked by our customers</p>
+    </div>
+  
+    <!-- First FAQ -->
+    <div class="collapse collapse-arrow bg-base-200 border border-gray-300 rounded-lg mt-4">
+      <input type="radio" name="my-accordion-2" checked="checked" />
+      <div class="collapse-title text-xl font-medium">
+        What types of construction services do you offer?
+      </div>
+      <div class="collapse-content">
+        <p>We offer a wide range of construction services, including residential and commercial building, renovations, remodeling, and custom projects tailored to meet the specific needs of our clients.</p>
+      </div>
+    </div>
+  
+    <!-- Second FAQ -->
+    <div class="collapse collapse-arrow bg-base-200 border border-gray-300 rounded-lg mt-4">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+        How long does a typical construction project take?
+      </div>
+      <div class="collapse-content">
+        <p>The duration of a construction project depends on the scope and complexity of the work. For instance, a simple renovation might take a few weeks, while a new build could take several months. We provide a detailed timeline after assessing your specific project.</p>
+      </div>
+    </div>
+  
+    <!-- Third FAQ -->
+    <div class="collapse collapse-arrow bg-base-200 border border-gray-300 rounded-lg mt-4">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+        Do you provide cost estimates before starting a project?
+      </div>
+      <div class="collapse-content">
+        <p>Yes, we provide detailed cost estimates based on your project requirements. Our team works closely with you to ensure that the estimate aligns with your budget and expectations before any work begins.</p>
+      </div>
+    </div>
+  
+    <!-- Fourth FAQ -->
+    <div class="collapse collapse-arrow bg-base-200 border border-gray-300 rounded-lg mt-4">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+        How do you ensure the quality of your construction work?
+      </div>
+      <div class="collapse-content">
+        <p>We prioritize quality by using high-grade materials, following best industry practices, and having our experienced team oversee every aspect of the project. Regular inspections and client feedback are also part of our process to ensure top-notch results.</p>
+      </div>
+    </div>
+  </div>
+  
+
+  
+   
+
+
     
 
 
@@ -402,26 +465,27 @@
 
     <footer>
 
-      <div class="text-center text-white">
+      <div class="text-white">
        
         <footer class="footer footer-center bg-black text-base-content rounded p-10 text-white">
            <div class="flex">
             <i class="fa-solid fa-arrow-up-long rotate-45 bg-btn-green text-black rounded-full px-auto h-7 w-7 text-lg"></i>
             <h1>Rinterio</h1>
            </div>
-           <div class="text-center mx-auto w-1/2 manrope-font ">
+           <div class="mx-auto lg:w-1/2 manrope-font  ">
             <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
            </div>
           
-          <nav class="grid  sm:grid-flow-row gap-4 lg:grid-flow-col gap-4 ">
+          <nav class="grid  sm:grid-flow-row gap-4 lg:grid-flow-col lg:gap-32 ">
+            <a class="link link-hover">Home</a>
             <a class="link link-hover">About us</a>
             <a class="link link-hover">Contact</a>
             <a class="link link-hover">Jobs</a>
             <a class="link link-hover">Press kit</a>
           </nav>
           <div >
-            <a class="btn bg-btn-green rounded-full  ">Button <i class="fa-solid fa-arrow-up-long rotate-45 bg-black text-white rounded-full px-auto h-7 w-7 text-lg"></i></a>
+            <a class="btn bg-btn-green rounded-full  ">Book Consult <i class="fa-solid fa-arrow-up-long rotate-45 bg-black text-white rounded-full px-auto h-7 w-7 text-lg"></i></a>
         </div>
          
           
